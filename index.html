@@ -1,160 +1,332 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>Curriculum Vitae for Er.Ankit Verma</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Er. Ankit Verma - Plant & Machinery Engineer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        @page {
+            size: A4;
+            margin: 0;
+        }
+        
+        body {
+            font-family: 'Calibri', 'Arial', sans-serif;
+            font-size: 10pt;
+            line-height: 1.4;
+            color: #000;
+            background: #fff;
+            max-width: 21cm;
+            margin: 0 auto;
+            padding: 1.5cm 1.8cm;
+        }
+        
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 8px;
+            margin-bottom: 12px;
+        }
+        
+        .header h1 {
+            font-size: 20pt;
+            font-weight: bold;
+            color: #1a1a1a;
+            margin-bottom: 4px;
+            letter-spacing: 0.5px;
+        }
+        
+        .header .title {
+            font-size: 11pt;
+            color: #2c3e50;
+            font-weight: 600;
+            margin-bottom: 6px;
+        }
+        
+        .contact-info {
+            font-size: 9pt;
+            color: #333;
+            line-height: 1.5;
+        }
+        
+        .contact-info a {
+            color: #2c3e50;
+            text-decoration: none;
+        }
+        
+        .section {
+            margin-bottom: 14px;
+        }
+        
+        .section-title {
+            font-size: 12pt;
+            font-weight: bold;
+            color: #2c3e50;
+            text-transform: uppercase;
+            border-bottom: 1.5px solid #2c3e50;
+            padding-bottom: 3px;
+            margin-bottom: 8px;
+            letter-spacing: 0.5px;
+        }
+        
+        .summary {
+            text-align: justify;
+            font-size: 10pt;
+            line-height: 1.5;
+        }
+        
+        .job-title {
+            font-size: 11pt;
+            font-weight: bold;
+            color: #1a1a1a;
+            margin-bottom: 2px;
+        }
+        
+        .company-info {
+            font-size: 9.5pt;
+            color: #444;
+            margin-bottom: 6px;
+        }
+        
+        .company-info strong {
+            font-weight: 600;
+        }
+        
+        ul {
+            margin-left: 18px;
+            margin-bottom: 8px;
+        }
+        
+        li {
+            margin-bottom: 3px;
+            font-size: 9.5pt;
+            line-height: 1.4;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 4px 8px;
+            margin-top: 6px;
+        }
+        
+        .skill-item {
+            font-size: 9.5pt;
+            padding: 3px 0;
+        }
+        
+        .skill-item:before {
+            content: "▪ ";
+            color: #2c3e50;
+            font-weight: bold;
+        }
+        
+        .cert-item {
+            margin-bottom: 3px;
+            font-size: 9.5pt;
+        }
+        
+        .education-item {
+            margin-bottom: 8px;
+        }
+        
+        .education-item strong {
+            font-size: 10pt;
+            color: #1a1a1a;
+        }
+        
+        .education-details {
+            font-size: 9pt;
+            color: #444;
+            margin-left: 0;
+        }
+        
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+        
+        .achievement-item {
+            font-size: 9.5pt;
+            margin-bottom: 3px;
+        }
+        
+        @media print {
+            body {
+                padding: 1.2cm 1.5cm;
+            }
+            .section {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>Er. Ankit Verma
-        <hr></hr>
-    </h1>
-    <img src="./my pics for resume.jpg" height="200px" width="180px" alt="Er. Ankit Verma">
-    <h5><section id="contact">
-  <h2>Contact Information</h2>
-  <p><strong>Phone:</strong> <a href="tel:+917976544885">+91-7976544885</a></p>
-  <p><strong>Location:</strong> Guwahati, Assam</p>
-  <p><strong>Email:</strong> <a href="mailto:mechanicalankitv@gmail.com">mechanicalankitv@gmail.com</a></p>
-</section>
-</h5>
-    <P>I'm a Mechanical Engineering graduate, also having thriving intrest in web development</P>
+    <div class="header">
+        <h1>ER. ANKIT VERMA</h1>
+        <div class="title">Plant & Machinery Engineer | Project Management | Heavy Equipment Specialist</div>
+        <div class="contact-info">
+            📞 +91-7976544885 | 📧 mechanicalankitv@gmail.com | 📍 Guwahati, Assam
+        </div>
+    </div>
 
-    <h2>Summary</h2>
-    <p> Experienced professional with 8+ years of demonstrated expertise in leadership, problem-solving,
-and workflow management. Seeking to apply these skills to excel in the Mechanical and Erection
-Engineer position within your esteemed company. Detail oriented learner with proficiency in
-methods design and process development, eager to contribute to your team's success. Recognized
-for diligence and reliability by supervisors, I am committed to supporting your company in reaching
-its objectives. Possessing strong judgment, effective time management, and a flexible approach, I
-am well-equipped to fulfil the responsibilities of an Engineer with responsibility and dedication</p>
+    <div class="section">
+        <div class="section-title">Professional Summary</div>
+        <div class="summary">
+            Results-driven Mechanical Engineer with 8+ years of progressive experience in plant & machinery management, heavy equipment operations, and project execution for infrastructure projects valued over ₹2,500 Cr. Proven expertise in erection, commissioning, and maintenance of batching plants, tower cranes, gantries, and bridge builders. Skilled in logistics optimization, inventory management, and ERP systems (SAP). Demonstrated track record of reducing machinery downtime by 15% through innovative maintenance protocols. Seeking to leverage technical expertise and leadership capabilities in Plant & Machinery roles at L&T.
+        </div>
+    </div>
 
-    <h2>ACADEMIC QUALIFICATIONS</h2>
-    <ul>
-        <li>High School Education,
-            <hr></hr>
-            St. Paul’s English Secondary School, Sawai Madhopur, 322001
-Year of Passing 2012
-Percentage 79 %</li>
-<li>Senior Secondary Education,
-    <hr></hr>
-Kendriya Vidyalaya, Sawai Madhopur, 322001
-Year of Passing 2014
-Percentage 69 %</li>
-<li>Graduation,
-    <hr></hr>
-Bachelor of Technology, Mechanical Engineering,
-IEC College of Engineering & Technology,
-Year of Passing: - 2019
-Percentage 67%</li>
-    </ul>
-    <section>
-  <h2>Certifications</h2>
-  <ul>
-    <li><strong>GATE 2020:</strong> AIR 6306 (75%)</li>
-    <li><strong>GATE 2019:</strong> AIR 10293 (55%)</li>
-    <li><strong>Certificate in Project Management:</strong> IIT Guwahati</li>
-    <li><strong>Full Stack Web Developer:</strong> Udemy</li>
-    <li><strong>Certificate of Appreciation by NBCC india In EHS and Compliance Management:</strong> SPSCIPL</li>
-    <li><strong>Certificate of Recognition in Safety:</strong> SPSCIPL</li>
-    <li><strong>Certificate of Excellence in Inventory & Maintenance:</strong> SPSCIPL</li>
-  </ul>
-</section>
+    <div class="section">
+        <div class="section-title">Core Competencies</div>
+        <div class="skills-grid">
+            <div class="skill-item">Heavy Equipment Management</div>
+            <div class="skill-item">Plant Erection & Commissioning</div>
+            <div class="skill-item">Preventive Maintenance</div>
+            <div class="skill-item">Logistics & Supply Chain</div>
+            <div class="skill-item">SAP & ERP Systems</div>
+            <div class="skill-item">Project Planning & Monitoring</div>
+            <div class="skill-item">Cost Optimization</div>
+            <div class="skill-item">Quality Assurance & Control</div>
+            <div class="skill-item">Spare Parts Management</div>
+            <div class="skill-item">Vendor Coordination</div>
+            <div class="skill-item">Safety & Compliance (EHS)</div>
+            <div class="skill-item">Team Leadership</div>
+        </div>
+    </div>
 
+    <div class="section">
+        <div class="section-title">Professional Experience</div>
+        
+        <div style="margin-bottom: 12px;">
+            <div class="job-title">Logistics & Compliance Manager</div>
+            <div class="company-info">
+                <strong>JN Lighting India LLP</strong> | IKEA GMP Project | Client: IKEA India Pvt. Ltd. | Project Value: ₹36 Cr | 2025
+            </div>
+            <ul>
+                <li>Managed end-to-end logistics operations for IKEA project execution ensuring timely material delivery and compliance</li>
+                <li>Coordinated fleet of material handling equipment including forklifts, boom lifts, and scissor lifts for installation activities</li>
+                <li>Supervised maintenance and deployment of MEWPs (Mobile Elevating Work Platforms) ensuring OSHA compliance</li>
+                <li>Troubleshot hydraulic and electrical issues in lifting equipment, reducing equipment idle time by 20%</li>
+                <li>Managed spare parts inventory for installation machinery and coordinated preventive maintenance schedules</li>
+                <li>Implemented equipment tracking system using ERP for real-time monitoring of machinery utilization and performance</li>
+                <li>Coordinated with vendors for timely repair and servicing of specialized lighting installation equipment</li>
+                <li>Conducted pre-deployment inspections and safety checks on all mechanical equipment as per client EHS standards</li>
+                <li>Optimized transportation logistics for heavy lighting fixtures and installation machinery across multiple project sites</li>
+            </ul>
+        </div>
 
+        <div style="margin-bottom: 12px;">
+            <div class="job-title">Project Management Consultant (PMC)</div>
+            <div class="company-info">
+                <strong>Molethu PMC Pvt. Ltd.</strong> | PMAY Housing Project | Client: NBCC India | Project Value: ₹216 Cr | 2024-2025
+            </div>
+            <ul>
+                <li>Monitored and supervised execution of Pradhan Mantri Awas Yojana housing projects as per DPR and CPWD specifications</li>
+                <li>Reviewed contractor work schedules, resource deployment plans, and ensured adherence to baseline timelines</li>
+                <li>Verified RA bills, quantity measurements, and conducted cost reconciliation before client submission</li>
+                <li>Tracked project progress and prepared comprehensive weekly/monthly progress reports for stakeholders</li>
+                <li>Supervised EHS compliance and implementation of statutory safety regulations across project sites</li>
+                <li>Conducted quality control processes including material approvals, site inspections, and testing procedures</li>
+            </ul>
+        </div>
 
+        <div style="margin-bottom: 12px;">
+            <div class="job-title">Mechanical Engineer - Plant & Machinery</div>
+            <div class="company-info">
+                <strong>SPS Construction India Pvt. Ltd.</strong> | Client: PWD Assam | Project Value: ₹2,300 Cr | Oct 2020 – 2024
+            </div>
+            <ul>
+                <li>Led erection, commissioning, and dismantling of Batching Plants (M1TR, CP30M, CP30MZ), Tower Cranes (MTC135H8, MTC3625), and Bridge Builders (Bridgecon 200MT) with zero accident record</li>
+                <li>Managed fleet of 50+ heavy equipment including Crawler Cranes (Demag CC2800, Kobelco CK1000i), Gantry Cranes (200MT to 30MT range), and Piling Rigs (Bauer BG30/39, MAIT HR300/280/260)</li>
+                <li>Reduced machinery downtime by 15% through implementation of predictive maintenance protocols and safety procedures</li>
+                <li>Created and processed 1,000+ Purchase Orders and 200+ Work Orders via ERP system for spare parts and consumables</li>
+                <li>Executed major overhauls: CAT C9 Engine, TII HMT Suspension Cylinders, TATA 2518 & Ashok Leyland 2820 clutch assemblies</li>
+                <li>Conducted quantity forecasting, spare parts reconciliation, and cost estimation for annual maintenance budgets</li>
+                <li>Supervised logistics and transportation of heavy equipment (Volvo FM400/460/500, TII HMT 190MT trailers)</li>
+                <li>Managed workshop operations, coordinated with 20+ operators and mechanics, conducted technical training sessions</li>
+                <li>Developed fuel optimization strategies and performed activity-wise cost analysis reducing operational costs by 12%</li>
+                <li>Prepared DPRs, DMRs, utilization reports, and handled permit applications to local/state authorities</li>
+            </ul>
+        </div>
+    </div>
 
+    <div class="section">
+        <div class="section-title">Key Equipment Expertise</div>
+        <ul style="columns: 2; column-gap: 20px;">
+            <li><strong>Batching Plants:</strong> M1TR, CP30M, CP30MZ</li>
+            <li><strong>Crawler Cranes:</strong> Demag CC2800, Kobelco CK1000i, P&H 440, American 9320, TATA TFC280</li>
+            <li><strong>Tower Cranes:</strong> MTC135H8, MTC3625</li>
+            <li><strong>Gantry Cranes:</strong> 200MT, 160MT, 130MT, 100MT, 60MT, 30MT</li>
+            <li><strong>Piling Rigs:</strong> Bauer BG30/BG39, MAIT HR300/280/260, Sany SR285</li>
+            <li><strong>Bridge Builders:</strong> Bridgecon 200MT</li>
+            <li><strong>Transport Equipment:</strong> TATA, Ashok Leyland, Volvo FM Series, TII HMT 190MT</li>
+            <li><strong>Auxiliary Equipment:</strong> Vibro Hammers (ICE800/600), Dredger (Decan 125HP)</li>
+        </ul>
+    </div>
 
-    <section>
-  <h2>Working Experience</h2> <hr></hr>
-  <section>
-      <h3>Role :- Project Management Consultant (PMC)</h3> <p><strong>Company:</strong> Molethu PMC Pvt. Ltd. | 
-          <strong>Project:</strong> Pradhan Mantri Awas Yojana (PMAY)</p> <p><strong>Client:</strong> NBCC India | <strong>Project Value:</strong> ₹216 Cr</p> 
-      <ul> <li>Represented PMC in monitoring and supervising execution of PMAY housing projects as per approved DPR and contract conditions.
-      </li> <li>Reviewed contractor’s work schedules, bar charts, and resource deployment plans to ensure timely completion.</li>
-          <li>Monitored quality control processes including material approvals, site inspections, and testing procedures.</li> 
-          <li>Verified RA bills, quantity measurements, and cost reconciliation before submission to client.</li> 
-          <li>Ensured compliance with CPWD specifications, NBCC norms, and government housing guidelines.</li> 
-          <li>Conducted site coordination meetings with contractors, architects, structural consultants, and client representatives.</li> 
-          <li>Tracked project progress against baseline schedule and prepared weekly & monthly progress reports.</li> 
-          <li>Identified risks, delays, and technical issues; recommended corrective and preventive actions.</li> 
-          <li>Supervised EHS compliance and implementation of statutory safety regulations at site.</li> 
-          <li>Assisted client in tender evaluation, technical scrutiny, and contractor performance assessment.</li> </ul> 
-      <h4>Key Responsibilities</h4> <hr></hr> <ul> 
-          <li>Project planning, monitoring, and reporting to senior management.</li> 
-          <li>Quality assurance & quality control supervision.</li> <li>Cost control and budget monitoring.</li> 
-          <li>Stakeholder coordination and dispute resolution support.</li> <li>Ensuring adherence to timelines, technical specifications, and contractual obligations.</li> </ul>
-  <h3>Role :- Mechanical Engineer</h3>
-  <p><strong>Company:</strong> SPS Construction India Pvt. Ltd. | <strong>Duration:</strong> Oct 2020 – 2025</p>
-  <p><strong>Client:</strong> PWD Assam | <strong>Project Value:</strong> ₹2300 Cr</p>
+    <div class="two-column">
+        <div class="section">
+            <div class="section-title">Education</div>
+            <div class="education-item">
+                <strong>B.Tech in Mechanical Engineering</strong><br>
+                <div class="education-details">IEC College of Engineering & Technology | 2019 | 67%</div>
+            </div>
+            <div class="education-item">
+                <strong>Senior Secondary Education</strong><br>
+                <div class="education-details">Kendriya Vidyalaya, Sawai Madhopur | 2014 | 69%</div>
+            </div>
+            <div class="education-item">
+                <strong>High School Education</strong><br>
+                <div class="education-details">St. Paul's English Secondary School | 2012 | 79%</div>
+            </div>
+        </div>
 
-  <ul>
-    <li>Led erection & dismantling of Batching Plants, Tower Cranes, Gantries, and Bridge Builders.</li>
-    <li>Managed daily operations of plant and machinery with a focus on minimizing breakdowns.</li>
-    <li>Created and issued over 1000+ Purchase Orders and 200+ Work Orders via ERP.</li>
-    <li>Conducted quantity forecasting, spare reconciliation, and cost estimation.</li>
-    <li>Supervised construction teams, operators, and workshop staff.</li>
-    <li>Reduced machinery downtime by 15% through improved safety and maintenance protocols.</li>
-    <li>Oversaw logistics for transportation of heavy equipment (Volvo, TATA, TII HMT).</li>
-    <li>Organized technical training sessions to enhance crew skillsets and communication.</li>
-  </ul>
+        <div class="section">
+            <div class="section-title">Certifications</div>
+            <div class="cert-item">• <strong>GATE 2020:</strong> AIR 6306 (75th Percentile)</div>
+            <div class="cert-item">• <strong>GATE 2019:</strong> AIR 10293 (55th Percentile)</div>
+            <div class="cert-item">• <strong>Project Management</strong> - IIT Guwahati</div>
+            <div class="cert-item">• <strong>Full Stack Web Development</strong> - Udemy</div>
+            <div class="cert-item">• <strong>First Aid Trainer Shri Arvind Foundation, Delhi — 2026</strong> - Udemy</div>
+            <div class="cert-item">• <strong>Advanced Diploma in Industrial Safety IHSM, Delhi — 2020</strong> - Udemy</div>
+            <div class="cert-item">• <strong>Appreciation letter for EHS & Compliance Management</strong> - NBCC India</div>
+            <div class="cert-item">• <strong>Excellence in Inventory & Maintenance</strong> - SPSCIPL</div>
+            <div class="cert-item">• <strong>Recognition in Safety Management</strong> - SPSCIPL</div>
+        </div>
+    </div>
 
-  <h4>Major Repairs & Maintenance</h4>
-  <hr></hr>
-  <ul>
-    <li>CAT C9 Engine (358-4924) – Major Overhaul</li>
-    <li>TII HMT Suspension Cylinder Overhaul</li>
-    <li>Clutch & Engine Overhaul: Tata 2518, Ashok Leyland 2820</li>
-  </ul>
+    <div class="section">
+        <div class="section-title">Technical Skills</div>
+        <div class="skills-grid">
+            <div class="skill-item">SAP ERP</div>
+            <div class="skill-item">MS Office Suite</div>
+            <div class="skill-item">AutoCAD</div>
+            <div class="skill-item">Project Planning Tools</div>
+            <div class="skill-item">Python</div>
+            <div class="skill-item">MySQL Database</div>
+            <div class="skill-item">HTML/CSS</div>
+            <div class="skill-item">JavaScript/React</div>
+        </div>
+    </div>
 
-  <h4>Technical & Administrative Tasks</h4> <hr></hr>
-  <ul>
-    <li>Hire/Sub Contract Creation (200+), DPRs, DMRs, Utilization Reports</li>
-    <li>Fuel Optimization & Activity-wise Cost Analysis</li>
-    <li>Material Handling for Launchers, Gantries, Tower Cranes</li>
-    <li>Staff Deputation & Labor Management</li>
-    <li>Permit Applications to Local/State Authorities</li>
-  </ul>
+    <div class="section">
+        <div class="section-title">Key Achievements</div>
+        <ul>
+            <li>Successfully erected and commissioned 10+ high-capacity plants and cranes with zero accident record across 4+ years</li>
+            <li>Awarded Certificate of Excellence in Inventory & Maintenance Management by SPSCIPL</li>
+            <li>Reduced equipment downtime by 15% through strategic preventive maintenance and safety protocol implementation</li>
+            <li>Optimized logistics operations resulting in 12% reduction in operational costs through fuel management and route planning</li>
+            <li>Managed projects worth ₹2,500+ Cr with consistent adherence to timelines and quality standards</li>
+        </ul>
+    </div>
 
-  <h4>Major Equipment Handled</h4> <hr></hr>
-  <ul>
-    <li><strong>Batching Plants:</strong> M1TR, CP30M, CP30MZ</li>
-    <li><strong>Bridge Builders:</strong> Bridgecon 200MT</li>
-    <li><strong>Cranes:</strong> Demag CC2800, Kobelco CK1000i, TATA TFC280, P&H 440, American Crane 9320</li>
-    <li><strong>Tower Cranes:</strong> MTC135H8, MTC3625</li>
-    <li><strong>Gantry Cranes:</strong> 200MT, 160MT, 130MT, 100MT, 60MT, 30MT</li>
-    <li><strong>Rig Machines:</strong> Bauer BG30, BG39, MAIT HR300/280/260, Sany SR285</li>
-    <li><strong>Transport Equipment:</strong> TATA 2518/2823K, Ashok Leyland 2820, Volvo FM400/460/500, TII HMT 190MT</li>
-    <li><strong>Others:</strong> Vibro Hammers (ICE800/600), Dredger (Decan 125HP)</li>
-  </ul>
-
-  <h4>Achievements</h4> <hr></hr>
-  <ul>
-    <li>Successfully erected multiple high-capacity plants and cranes with zero accident record.</li>
-    <li>Awarded for excellence in inventory control and machinery safety.</li>
-    <li>Developed optimized logistic plans for equipment loading and transport.</li>
-  </ul>
-</section>
-
-
-    <h2>Skills</h2> <hr></hr>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Python</li>
-        <li>Java</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Bootstrap</li>
-        <li>Git</li>
-        <li>MySQL</li>
-        <li> SAP</li>
-        <li>ERP</li>
-        <li>MS Office</li>
-
-    </ul>
 </body>
 </html>
-
-
-
-
